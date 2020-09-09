@@ -1,0 +1,47 @@
+---------------AT&T UNIX SYSTEM V RELEASE 4 VERSION 2.1 1991-----------------
+--------------------------------CAKE OVA FILE--------------------------------
+AT&T UNIX System V ("System Five"), first released in 1983, is significant as
+it was one of the first commercial versions of the Unix operating system. It 
+was the result of much collaboration between vendors and became the core 
+basis for many other operating systems including Xenix, AIX, UnixWare, 
+Solaris, and HP-UX. 
+more information: https://en.wikipedia.org/wiki/UNIX_System_V
+-----------------------------------------------------------------------------
+file: AT&T_UNIX_SYSTEM_V.ova (Open Virtualization Format 1.0)
+-----------------------------------------------------------------------------
+root user pass                   : toor
+install user pass                : toor
+service user pass                : toor
+OA&M administrative pass <sysadm>: toor
+-----------------------------------------------------------------------------
+System Name                      : UnixLab
+-----------------------------------------------------------------------------
+installed pkgs: 
+- Base-01.img to 10
+- License Disk Unlimited Users
+- Maintenance
+- Networking Support Utility Package
+- Remote Terminal Package
+- Editing Utilities
+- FMLI Package
+- OA&M Basic & Ext. 1 to 3
+- XENIX Compatibility Package
+- BSD Compatibility Package
+-----------------------------------------------------------------------------
+failed packages:
+0- FACE Package
+0- Printer Package 
+-----------------------------------------------------------------------------
+Notices:
+- This system installed from img files. You can find the image files from
+here: https://archive.org/details/at-t-unix-system-v-release-4-version-2.1.7z 
+
+- Please shutdown the system as using "shutdown -y -g0" and then reboot
+system.
+
+- If you want install any img file, use "installpkg" and then insert the img 
+floop drive, then press enter and type "pkgadd -d diskatte1" to install,
+finally follow the instructions.
+-----------------------------------------------------------------------------
+
+Enjoy unix lovers!!
